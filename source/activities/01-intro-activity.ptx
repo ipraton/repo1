@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-01-intro-activity">
+  <title>Algebra Review</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This is to remind you of some algebra.
+    </p>
+  </introduction>
+  <!-- Exercises start here. -->
+  <exercise workspace="5in">
+    <statement>
+      <p>
+        Use the quadratic formula to find the roots of
+        <md>
+          x^2 - 3x + 6 = 0.
+        </md>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Rewrite as just one fraction: <m>\frac1{x}+\frac1{x-2}</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Here is a table showing the values of a function <m>f</m>, along with values of its derivative <m>f'</m>.
+        <tabular>
+          <col right="minor" /> <col halign="center" /> <col halign="center" /> <col halign="center" />
+          <row />
+            <row>
+              <cell> <m>x</m> </cell>
+              <cell>0</cell>
+              <cell>1</cell>
+              <cell>2</cell>
+            </row>
+
+            <row>
+              <cell />
+            </row>
+
+            <row>
+              <cell> <m>f(x)</m> </cell>
+              <cell>0</cell>
+              <cell>2</cell>
+              <cell>2</cell>
+            </row>
+
+            <row>
+              <cell> <m>f'(x)</m> </cell>
+              <cell>1</cell>
+              <cell>0</cell>
+              <cell> <m>-1</m> </cell>
+            </row>
+
+            <row>
+              <cell />
+            </row>
+          </tabular>
+          Let <m>g(x)=(x^{2}+1)f(x)</m>.
+          Find <m>g'(1)</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <figure>
+          <caption>A simple TikZ picture</caption>
+          <latex-image>
+          <latex-code>
+\begin{tikzpicture}
+  \draw[->] (0,0) -- (2,0);
+  \draw[->] (0,0) -- (0,2);
+  \draw (0,0) circle (1);
+\end{tikzpicture}
+          </latex-code>
+          </latex-image>
+        </figure>
+      </statement>
+    </exercise>
+  </worksheet>
